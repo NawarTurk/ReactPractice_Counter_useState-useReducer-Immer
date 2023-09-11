@@ -3,7 +3,7 @@ import {useReducer} from 'react';
 import {produce} from 'immer'
 
 const INCREMENT= 'increment';
-const SET_VALUE_TO_ADD="change value to add";  // constant action type
+const SET_VALUE_TO_ADD="change value to add";  
 const DECREMENT = 'decrement';
 const ADD_VALUE_TO_COUNT = 'add value to count';
 
